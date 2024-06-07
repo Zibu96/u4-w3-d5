@@ -18,6 +18,13 @@ public class Riviste extends Catalogo {
         this.periodicità = periodicità;
     }
 
+    public Riviste() {
+    }
+
+    public Riviste(Periodicità periodicità) {
+        this.periodicità = periodicità;
+    }
+
     public Periodicità getPeriodicità() {
         return periodicità;
     }
