@@ -60,6 +60,7 @@ public class Application {
         System.out.println("ricerca elemento per numero tessera e non restituito");
         cd.getElementoByTesseraUtente(152).forEach(System.out::println);
 //        ------RICERCA ELEMENTO PER TESSERA E NON  ANCORA RESTITUITO ----
+        System.out.println("ricerca prestito scaduto e non restituito");
         cd.getPrestitoScadutoNonRestituito(LocalDate.now()).forEach(System.out::println);
 
         Utente utenteFromDb = ud.findById(152);
