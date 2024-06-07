@@ -26,4 +26,5 @@ public class PrestitoDAO {
         if (prestito == null) throw new NotFoundException(prestitoId);
         return prestito;
     }
+
 }
